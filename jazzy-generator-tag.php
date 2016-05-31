@@ -24,89 +24,89 @@ function jgt_generator_as_jazzer( $tag, $type ) {
 
 	// Jazz musicians as correspond to their respective release versions.
 	$jazzers = array(
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'1.0' => _x( '%s to the sounds of Miles Davis',      'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'1.0' => __( '%s to the sounds of Miles Davis',     'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'1.2' => _x( '%s to the sounds of Charles Mingus',   'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'1.2' => __( '%s to the sounds of Charles Mingus',  'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'1.5' => _x( '%s to the sounds of Billy Strayhorn',  'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'1.5' => __( '%s to the sounds of Billy Strayhorn', 'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.0' => _x( '%s to the sounds of Duke Ellington',   'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'2.0' => __( '%s to the sounds of Duke Ellington',   'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.1' => _x( '%s to the sounds of Ella Fitzgerald',  'gender: female', 'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is female. */
+		'2.1' => __( '%s to the sounds of Ella Fitzgerald',  'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.2' => _x( '%s to the sounds of Stan Getz',        'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'2.2' => __( '%s to the sounds of Stan Getz',        'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.3' => _x( '%s to the sounds of Dexter Gordon',    'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'2.3' => __( '%s to the sounds of Dexter Gordon',    'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.5' => _x( '%s to the sounds of Michael Brecker',  'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'2.5' => __( '%s to the sounds of Michael Brecker',  'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.6' => _x( '%s to the sounds of McCoy Tyner',      'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'2.6' => __( '%s to the sounds of McCoy Tyner',      'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.7' => _x( '%s to the sounds of John Coltrane',    'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'2.7' => __( '%s to the sounds of John Coltrane',    'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.8' => _x( '%s to the sounds of Chet Baker',       'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'2.8' => __( '%s to the sounds of Chet Baker',       'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'2.9' => _x( '%s to the sounds of Carmen McRae',     'gender: female', 'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is female. */
+		'2.9' => __( '%s to the sounds of Carmen McRae',     'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.0' => _x( '%s to the sounds of Thelonious Monk',  'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.0' => __( '%s to the sounds of Thelonious Monk',  'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.1' => _x( '%s to the sounds of Django Reinhardt', 'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.1' => __( '%s to the sounds of Django Reinhardt', 'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.2' => _x( '%s to the sounds of George Gershwin',  'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.2' => __( '%s to the sounds of George Gershwin',  'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.3' => _x( '%s to the sounds of Sonny Stitt',      'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.3' => __( '%s to the sounds of Sonny Stitt',      'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.4' => _x( '%s to the sounds of Grant Green',      'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.4' => __( '%s to the sounds of Grant Green',      'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.5' => _x( '%s to the sounds of Elvin Jones',      'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.5' => __( '%s to the sounds of Elvin Jones',      'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.6' => _x( '%s to the sounds of Oscar Peterson',   'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.6' => __( '%s to the sounds of Oscar Peterson',   'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.7' => _x( '%s to the sounds of Count Basie',      'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.7' => __( '%s to the sounds of Count Basie',      'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.8' => _x( '%s to the sounds of Charlie Parker',   'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.8' => __( '%s to the sounds of Charlie Parker',   'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'3.9' => _x( '%s to the sounds of Jimmy Smith',      'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'3.9' => __( '%s to the sounds of Jimmy Smith',      'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'4.0' => _x( '%s to the sounds of Benny Goodman',    'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'4.0' => __( '%s to the sounds of Benny Goodman',    'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'4.1' => _x( '%s to the sounds of Dinah Washington', 'gender: female', 'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is female. */
+		'4.1' => __( '%s to the sounds of Dinah Washington', 'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'4.2' => _x( '%s to the sounds of Bud Powell',       'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'4.2' => __( '%s to the sounds of Bud Powell',       'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'4.3' => _x( '%s to the sounds of Billie Holiday',   'gender: female', 'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is female. */
+		'4.3' => __( '%s to the sounds of Billie Holiday',   'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'4.4' => _x( '%s to the sounds of Clifford Brown',   'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'4.4' => __( '%s to the sounds of Clifford Brown',   'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
-		'4.5' => _x( '%s to the sounds of Coleman Hawkins',  'gender: male',   'jazzy-generator-tag' ),
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
+		'4.5' => __( '%s to the sounds of Coleman Hawkins',  'jazzy-generator-tag' ),
 	);
 
 	$wp_version = get_bloginfo( 'version' );
@@ -121,7 +121,7 @@ function jgt_generator_as_jazzer( $tag, $type ) {
 	if ( array_key_exists( $wp_version_sub, $jazzers ) ) {
 		$jazzer_string = $jazzers[ $wp_version_sub ];
 	} else {
-		/* translators: WordPress version string, e.g. WordPress 4.5 */
+		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender is neutral. */
 		$jazzer_string = __( '%s to the sounds of jazz', 'jazzy-generator-tag' );
 	}
 
