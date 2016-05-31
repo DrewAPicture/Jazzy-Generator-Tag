@@ -1,0 +1,21 @@
+{
+	"name"       : "drewapicture/jazzy-generator-tag",
+	"description": "Supplements your WordPress site's generator tag with the jazz artist your current version of WordPress was named after.",
+	"homepage"   : "https://github.com/DrewAPicture/jazzy-generator-tag",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Drew Jaynes",
+			"homepage": "http://werdswords.com/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/DrewAPicture/jazzy-generator-tag/issues",
+		"forum": "https://wordpress.org/support/plugin/jazzy-generator-tag",
+		"source": "https://github.com/DrewAPicture/jazzy-generator-tag"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
