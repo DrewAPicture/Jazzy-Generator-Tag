@@ -8,7 +8,6 @@
  * License: GPLv2
  * Version: 1.0.0
  * Text Domain: jazzy-generator-tag
- * Domain Path: /languages/
  */
 
 /**
@@ -130,3 +129,13 @@ function jgt_generator_as_jazzer( $tag, $type ) {
 	return '<meta content="' . esc_attr( $jazzer ) . '" name="generator">';
 }
 add_filter( 'get_the_generator_xhtml', 'jgt_generator_as_jazzer', 10, 2 );
+
+add_action( 'plugins_loaded', 'jgt_load_textdomain' );
+/**
+ * Loads plugin text domain.
+ * 
+ * @since 1.1.0
+ */
+function jgt_load_textdomain() {
+	load_plugin_textdomain( 'jazzy-generator-tag' );
+}
