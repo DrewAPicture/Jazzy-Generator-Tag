@@ -6,7 +6,7 @@
  * Author: Drew Jaynes
  * Author URI: http://werdswords.com
  * License: GPLv2
- * Version: 1.0.0
+ * Version: 4.8.0
  * Text Domain: jazzy-generator-tag
  * Domain Path: /languages/
  */
@@ -107,6 +107,15 @@ function jgt_generator_as_jazzer( $tag, $type ) {
 
 		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
 		'4.5' => __( '%s to the sounds of Coleman Hawkins',  'jazzy-generator-tag' ),
+
+		/* translators: WordPress version string, e.g. 'WordPress 4.6'. Gender of the artist is male */
+		'4.6' => __( '%s to the sounds of Pepper Adams', 'jazzy-generator-tag' ),
+
+		/* translators: WordPress version string, e.g. 'WordPress 4.7'. Gender of the artist is female */
+		'4.7' => __( '%s to the sounds of Sarah Vaughan', 'jazzy-generator-tag' ),
+
+		/* translators: WordPress version string, e.g. 'WordPress 4.8'. Gender of the artist is male */
+		'4.8' => __( '%s to the sounds of William John Bill Evans', 'jazzy-generator-tag' ),
 	);
 
 	$wp_version = get_bloginfo( 'version' );
