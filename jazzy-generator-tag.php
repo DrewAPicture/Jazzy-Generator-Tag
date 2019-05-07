@@ -108,14 +108,24 @@ function jgt_generator_as_jazzer( $tag, $type ) {
 		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
 		'4.5' => __( '%s to the sounds of Coleman Hawkins',  'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. 'WordPress 4.6'. Gender of the artist is male */
+		/* translators: WordPress version string, e.g. 'WordPress 4.6'. Gender of the artist is male. */
 		'4.6' => __( '%s to the sounds of Pepper Adams', 'jazzy-generator-tag' ),
 
 		/* translators: WordPress version string, e.g. 'WordPress 4.7'. Gender of the artist is female */
 		'4.7' => __( '%s to the sounds of Sarah Vaughan', 'jazzy-generator-tag' ),
 
-		/* translators: WordPress version string, e.g. 'WordPress 4.8'. Gender of the artist is male */
+		/* translators: WordPress version string, e.g. 'WordPress 4.8'. Gender of the artist is male. */
 		'4.8' => __( '%s to the sounds of William John Bill Evans', 'jazzy-generator-tag' ),
+
+		/* translators: WordPress version string, e.g. 'WordPress 4.9'. Gender of the artist is male. */
+		'4.9' => __( '%s to the sounds of Billy Tipton', 'jazzy-generator-tag' ),
+
+		/* translators: WordPress version string, e.g. 'WordPress 5.0'. Gender of the artist is male. */
+		'5.0' => __( '%s to the sounds of Bebo_Valdés', 'jazzy-generator-tag' ),
+
+		/* translators: WordPress version string, e.g. 'WordPress 5.1'. Gender of the artist is female. */
+		'5.1' => __( '%s to the sounds of Betty Carter', 'jazzy-generator-tag' ),
+
 	);
 
 	$wp_version = get_bloginfo( 'version' );
