@@ -126,6 +126,8 @@ function jgt_generator_as_jazzer( $tag, $type ) {
 		/* translators: WordPress version string, e.g. 'WordPress 5.1'. Gender of the artist is female. */
 		'5.1' => __( '%s to the sounds of Betty Carter', 'jazzy-generator-tag' ),
 
+		/* translators: WordPress version string, e.g. 'WordPress 5.2'. Gender of the artist is male. */
+		'5.2' => __( '%s to the sounds of Jaco Pastorius', 'jazzy-generator-tag' ),
 	);
 
 	$wp_version = get_bloginfo( 'version' );
