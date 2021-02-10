@@ -1,8 +1,8 @@
 === Jazzy Generator Tag ===
 Contributors: DrewAPicture, ocean90
 Tags: generator
-Tested up to: 5.5
-Stable tag: 5.5.0
+Tested up to: 5.6
+Stable tag: 5.6.0
 Requires at least: 2.5
 
 Supplements your WordPress site's generator tag with the jazz artist your current version of WordPress was named after.
@@ -13,6 +13,9 @@ Replaces the default generator tag output, e.g. 'WordPress 4.5' with an <em>impr
 
 == Changelog ==
 
+= 5.6.0 =
+* Added 5.6 compatibility
+
 = 5.5.0 =
 * Added 5.5 compatibility
 * Added 5.4 compatibility
@@ -22,7 +25,9 @@ Replaces the default generator tag output, e.g. 'WordPress 4.5' with an <em>impr
 * Added 5.2 compatibility
 
 = 5.1.0 =
-* Added 4.9, 5.0, and 5.1 compatibility
+* Added 4.9 compatibility
+* Added 5.0 compatibility
+* Added 5.1 compatibility
 
 = 4.8.0 =
 
