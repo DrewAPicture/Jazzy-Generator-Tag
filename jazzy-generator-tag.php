@@ -6,7 +6,7 @@
  * Author: Drew Jaynes
  * Author URI: http://werdswords.com
  * License: GPLv2
- * Version: 5.7.0
+ * Version: 6.6.0
  * Text Domain: jazzy-generator-tag
  * Domain Path: /languages/
  */
