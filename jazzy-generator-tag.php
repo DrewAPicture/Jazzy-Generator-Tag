@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Jazzy Generator Tag
- * Plugin URI: https://wordpress.org/plugins/jazzy-generator-tag/
+ * Plugin URI: https://werdswords.com/plugins/
  * Description: Supplements your WordPress site's generator tag with the jazz artist your current version of WordPress was named after.
  * Author: Drew Jaynes
  * Author URI: http://werdswords.com
