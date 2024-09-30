@@ -1,0 +1,344 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jazzy Generator Tag\n"
+"POT-Creation-Date: 2024-09-30 01:23-0600\n"
+"PO-Revision-Date: 2024-09-30 01:22-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: jazzy-generator-tag.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male.
+#: jazzy-generator-tag.php:28
+#, php-format
+msgid "%s to the sounds of Miles Davis"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male.
+#: jazzy-generator-tag.php:31
+#, php-format
+msgid "%s to the sounds of Charles Mingus"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 1.5'. Gender of the artist is male.
+#: jazzy-generator-tag.php:34
+#, php-format
+msgid "%s to the sounds of Billy Strayhorn"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.0'. Gender of the artist is male.
+#: jazzy-generator-tag.php:37
+#, php-format
+msgid "%s to the sounds of Duke Ellington"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.1'. Gender of the artist is female.
+#: jazzy-generator-tag.php:40
+#, php-format
+msgid "%s to the sounds of Ella Fitzgerald"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.2'. Gender of the artist is male.
+#: jazzy-generator-tag.php:43
+#, php-format
+msgid "%s to the sounds of Stan Getz"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.3'. Gender of the artist is male.
+#: jazzy-generator-tag.php:46
+#, php-format
+msgid "%s to the sounds of Dexter Gordon"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.5'. Gender of the artist is male.
+#: jazzy-generator-tag.php:49
+#, php-format
+msgid "%s to the sounds of Michael Brecker"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.6'. Gender of the artist is male.
+#: jazzy-generator-tag.php:52
+#, php-format
+msgid "%s to the sounds of McCoy Tyner"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.7'. Gender of the artist is male.
+#: jazzy-generator-tag.php:55
+#, php-format
+msgid "%s to the sounds of John Coltrane"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.8'. Gender of the artist is male.
+#: jazzy-generator-tag.php:58
+#, php-format
+msgid "%s to the sounds of Chet Baker"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 2.9'. Gender of the artist is female.
+#: jazzy-generator-tag.php:61
+#, php-format
+msgid "%s to the sounds of Carmen McRae"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.0'. Gender of the artist is male.
+#: jazzy-generator-tag.php:64
+#, php-format
+msgid "%s to the sounds of Thelonious Monk"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.1'. Gender of the artist is male.
+#: jazzy-generator-tag.php:67
+#, php-format
+msgid "%s to the sounds of Django Reinhardt"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.2'. Gender of the artist is male.
+#: jazzy-generator-tag.php:70
+#, php-format
+msgid "%s to the sounds of George Gershwin"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.3'. Gender of the artist is male.
+#: jazzy-generator-tag.php:73
+#, php-format
+msgid "%s to the sounds of Sonny Stitt"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.4'. Gender of the artist is male.
+#: jazzy-generator-tag.php:76
+#, php-format
+msgid "%s to the sounds of Grant Green"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.5'. Gender of the artist is male.
+#: jazzy-generator-tag.php:79
+#, php-format
+msgid "%s to the sounds of Elvin Jones"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.6'. Gender of the artist is male.
+#: jazzy-generator-tag.php:82
+#, php-format
+msgid "%s to the sounds of Oscar Peterson"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.7'. Gender of the artist is male.
+#: jazzy-generator-tag.php:85
+#, php-format
+msgid "%s to the sounds of Count Basie"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.8'. Gender of the artist is male.
+#: jazzy-generator-tag.php:88
+#, php-format
+msgid "%s to the sounds of Charlie Parker"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 3.9'. Gender of the artist is male.
+#: jazzy-generator-tag.php:91
+#, php-format
+msgid "%s to the sounds of Jimmy Smith"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.0'. Gender of the artist is male.
+#: jazzy-generator-tag.php:94
+#, php-format
+msgid "%s to the sounds of Benny Goodman"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.1'. Gender of the artist is female.
+#: jazzy-generator-tag.php:97
+#, php-format
+msgid "%s to the sounds of Dinah Washington"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.2'. Gender of the artist is male.
+#: jazzy-generator-tag.php:100
+#, php-format
+msgid "%s to the sounds of Bud Powell"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.3'. Gender of the artist is female.
+#: jazzy-generator-tag.php:103
+#, php-format
+msgid "%s to the sounds of Billie Holiday"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.4'. Gender of the artist is male.
+#: jazzy-generator-tag.php:106
+#, php-format
+msgid "%s to the sounds of Clifford Brown"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male.
+#: jazzy-generator-tag.php:109
+#, php-format
+msgid "%s to the sounds of Coleman Hawkins"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.6'. Gender of the artist is male.
+#: jazzy-generator-tag.php:112
+#, php-format
+msgid "%s to the sounds of Pepper Adams"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.7'. Gender of the artist is female
+#: jazzy-generator-tag.php:115
+#, php-format
+msgid "%s to the sounds of Sarah Vaughan"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.8'. Gender of the artist is male.
+#: jazzy-generator-tag.php:118
+#, php-format
+msgid "%s to the sounds of William John Bill Evans"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.9'. Gender of the artist is male.
+#: jazzy-generator-tag.php:121
+#, php-format
+msgid "%s to the sounds of Billy Tipton"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.0'. Gender of the artist is male.
+#: jazzy-generator-tag.php:124
+#, php-format
+msgid "%s to the sounds of Bebo_Valdés"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.1'. Gender of the artist is female.
+#: jazzy-generator-tag.php:127
+#, php-format
+msgid "%s to the sounds of Betty Carter"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.2'. Gender of the artist is male.
+#: jazzy-generator-tag.php:130
+#, php-format
+msgid "%s to the sounds of Jaco Pastorius"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.3'. Gender of the artist is male.
+#: jazzy-generator-tag.php:133
+#, php-format
+msgid "%s to the sounds of Roland Kirk"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.4'. Gender of the artist is male.
+#: jazzy-generator-tag.php:136
+#, php-format
+msgid "%s to the sounds of Nat Adderley"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.5'. Gender of the artist is male.
+#: jazzy-generator-tag.php:139
+#, php-format
+msgid "%s to the sounds of Billy Eckstine"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.6'. Gender of the artist is female.
+#: jazzy-generator-tag.php:142
+#, php-format
+msgid "%s to the sounds of Nina Simone"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.7'. Gender of the artist is female.
+#: jazzy-generator-tag.php:145
+#, php-format
+msgid "%s to the sounds of Esperanza Spalding"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.8'. Gender of the artist is male.
+#: jazzy-generator-tag.php:148
+#, php-format
+msgid "%s to the sounds of Art Tatum"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 5.9'. Gender of the artist is female.
+#: jazzy-generator-tag.php:151
+#, php-format
+msgid "%s to the sounds of Joséphine Baker"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 6.0'. Gender of the artist is male.
+#: jazzy-generator-tag.php:154
+#, php-format
+msgid "%s to the sounds of Arturo O’Farrill"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 6.1'. Gender of the artist is male.
+#: jazzy-generator-tag.php:157
+#, php-format
+msgid "%s to the sounds of Mikhail Alperin"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 6.2'. Gender of the artist is male.
+#: jazzy-generator-tag.php:160
+#, php-format
+msgid "%s to the sounds of Eric Dolphy"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 6.3'. Gender of the artist is male.
+#: jazzy-generator-tag.php:163
+#, php-format
+msgid "%s to the sounds of Lionel Hampton"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 6.4'. Gender of the artist is female.
+#: jazzy-generator-tag.php:166
+#, php-format
+msgid "%s to the sounds of Shirley Horn"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 6.5'. Gender of the artist is female.
+#: jazzy-generator-tag.php:169
+#, php-format
+msgid "%s to the sounds of Regina Carter"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 6.6'. Gender of the artist is male.
+#: jazzy-generator-tag.php:172
+#, php-format
+msgid "%s to the sounds of Tommy Dorsey"
+msgstr ""
+
+#. translators: WordPress version string, e.g. 'WordPress 4.5'. Gender is neutral.
+#: jazzy-generator-tag.php:188
+#, php-format
+msgid "%s to the sounds of jazz"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Jazzy Generator Tag"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://werdswords.com/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Supplements your WordPress site's generator tag with the jazz artist your "
+"current version of WordPress was named after."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Drew Jaynes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://werdswords.com"
+msgstr ""

@@ -20,10 +20,9 @@
  * @param string $type The type of page to generate the tag for.
  * @return string The filtered generator meta tag.
  */
-function jgt_generator_as_jazzer( $tag, $type ) {
-
-	// Jazz musicians as correspond to their respective release versions.
-	$jazzers = array(
+add_filter( 'get_the_generator_xhtml', function( $tag, $type ) {
+    // Jazz musicians as correspond to their respective release versions.
+	$jazzers = [
 		/* translators: WordPress version string, e.g. 'WordPress 4.5'. Gender of the artist is male. */
 		'1.0' => __( '%s to the sounds of Miles Davis',     'jazzy-generator-tag' ),
 
@@ -191,5 +190,8 @@ function jgt_generator_as_jazzer( $tag, $type ) {
 	$jazzer = sprintf( $jazzer_string, 'WordPress ' . $wp_version );
 
 	return '<meta content="' . esc_attr( $jazzer ) . '" name="generator">';
-}
-add_filter( 'get_the_generator_xhtml', 'jgt_generator_as_jazzer', 10, 2 );
+}, 10, 2 );
+
+add_action('plugins_loaded', function() {
+    load_plugin_textdomain( 'jazzy-generator-tag', false, __DIR__ . '/languages' );
+});
