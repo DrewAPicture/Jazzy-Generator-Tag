@@ -7,6 +7,7 @@
  * Author URI: http://werdswords.com
  * License: GPLv2
  * Version: 6.6.0
+ * Requires PHP: 7.4
  * Text Domain: jazzy-generator-tag
  * Domain Path: /languages/
  */
