@@ -1,5 +1,6 @@
 === Jazzy Generator Tag ===
-Contributors: DrewAPicture, ocean90
+Contributors: drewapicture, ocean90
+License: GPLv2
 Tags: generator
 Tested up to: 6.6
 Stable tag: 6.6.0
