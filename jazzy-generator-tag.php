@@ -170,7 +170,7 @@ add_filter( 'get_the_generator_xhtml', function( $tag, $type ) {
 
 		/* translators: WordPress version string, e.g. 'WordPress 6.6'. Gender of the artist is male. */
 		'6.6' => __( '%s to the sounds of Tommy Dorsey', 'jazzy-generator-tag' ),
-	);
+	];
 
 	$wp_version = get_bloginfo( 'version' );
 
